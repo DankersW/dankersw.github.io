@@ -13,11 +13,17 @@ jobs:
       - name: Use Node.js 15.x
         uses: actions/setup-node@v1
         with:
-          node-version: 15.x
-      - name: npm ci
-        run: npm ci
-      - name: npm build
-        run: npm run build --if-present
-      - name: deploy on github pages
-        run: npm run deploy
+          node-version: 12.x
+
+      - name: npm build and install
+        run: |
+          npm ci
+          npm install
+          npm run build
+      
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: build
       
