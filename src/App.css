@@ -7,17 +7,31 @@
   font-family: 'Lato', sans-serif;
 }
 
+.content {
+  z-index: 2;
+  position: relative;
+}
+
 .section-a {
   background-color: burlywood;
+  height: 70vh;
 }
 
 .section-x {
   background-color: darkolivegreen;
+  height: 55vh;
+  margin-bottom: 35vh;
 }
 
-.footer {
-  background-color: aqua;
+.parallax-bg {
   height: 40vh;
+  width: 100%;
+  background-color: violet;
+  background-image: url('images/mountain.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  position: fixed;
+  bottom: 0vh;
 }
-
-
