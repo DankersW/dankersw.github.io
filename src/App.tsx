@@ -17,13 +17,8 @@ function App() {
           <h2>Section X</h2>
         </div>
 
-        <Footer/>
-        
+        <Footer/>      
       </div>
-      
-        
-
-      
     </div>
   );
 }
