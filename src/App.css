@@ -7,27 +7,28 @@
   font-family: 'Lato', sans-serif;
 }
 
+.section-title{
+  font-size: 2rem;
+  color: #ECECEC;
+  text-align: center;
+  padding: 5vh 0vh 3vh 0vh;
+}
+
+.sub-title {
+  font-size: 1rem;
+  color: #f2a365;
+  text-align: center;
+}
+
 .content {
   z-index: 2;
   position: relative;
 }
 
-.section-a {
-  background-color: burlywood;
-  height: 70vh;
-}
-
-.section-x {
-  background-color: darkolivegreen;
-  height: 55vh;
-  margin-bottom: 35vh;
-}
-
 .parallax-bg {
   height: 40vh;
   width: 100%;
-  background-color: violet;
-  background-image: url('images/mountain.jpg');
+  background-image: url('images/code_bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

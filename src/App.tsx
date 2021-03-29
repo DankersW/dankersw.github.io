@@ -1,22 +1,20 @@
 import './App.css';
 import IntroPage from './pages/into'
 import Footer from './pages/footer'
+import Contact from './pages/contact'
+import About from "./pages/about"
+import Projects from "./pages/projects"
+
 
 function App() {
   return (
     <div className="app">
       <div className="parallax-bg"/>
       <div className="content">
-        <IntroPage></IntroPage>
-        
-        <div className="section-a">
-          <h2>Section A</h2>
-        </div>
-
-        <div className="section-x">
-          <h2>Section X</h2>
-        </div>
-
+        <IntroPage/>
+        <About/>
+        <Projects/>
+        <Contact/>
         <Footer/>      
       </div>
     </div>
