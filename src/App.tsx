@@ -1,15 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-import MiniDrawer from "./components/drawer/Drawer"
+import IntroPage from './pages/into'
 
 function App() {
   return (
     <div className="main">
-      <MiniDrawer></MiniDrawer>
-      <h1>Hi, I'm Wouter Dankers, A software engineer</h1>
-      <h1>Project gird with hover function</h1>
-      <h1>Contact page with downloadable CV</h1>
-      <h1>LEt's become internet BBF's. Links to all my social media and github</h1>
+      <IntroPage></IntroPage>
+      
+      <div className="section-a">
+        <h2>Section A</h2>
+      </div>
+
+      <div className="section-x">
+        <h2>Section X</h2>
+      </div>
+
+      <div className="footer">
+        <h4>Footer pic</h4>
+        <div className="arrow">
+        </div>
+      </div>
 
     </div>
   );
