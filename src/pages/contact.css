@@ -1,5 +1,19 @@
 .contact-container {
-    background-color: #222831;
-    height: 40vh;
     margin-bottom: 34vh;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-flex-item {
+    padding: 2vh;
+}
+
+.contact-flex-item :hover {
+    color: #f2a365;
 }

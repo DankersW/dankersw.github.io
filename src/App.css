@@ -7,17 +7,29 @@
   font-family: 'Lato', sans-serif;
 }
 
+.section-wrapper {
+  padding: 2vh;
+}
+
+.bg-dark-grey {
+  background-color: #222831;
+}
+.bg-grey {
+  background-color: #222a30;
+}
+
 .section-title{
-  font-size: 2rem;
+  font-size: 3rem;
   color: #ECECEC;
   text-align: center;
-  padding: 5vh 0vh 3vh 0vh;
+  padding: 5vh 0vh 1vh 0vh;
 }
 
 .sub-title {
-  font-size: 1rem;
+  font-size: 2rem;
   color: #f2a365;
   text-align: center;
+  padding-bottom: 2vh;
 }
 
 .content {
