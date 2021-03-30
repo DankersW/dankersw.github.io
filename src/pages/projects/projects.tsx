@@ -9,7 +9,7 @@ export default function Projects() {
                 A selection of some of my personal projects. All source code can be found on <a href="https://github.com/DankersW" target="_blank" rel="noopener noreferrer">Github</a>
             </h3>
             <div className="project-grid">
-                <div className="project-tile">
+                <div className="project-tile bg-home-automation">
                     <div className="project-info">
                         <h3 className="project-title">Home automation</h3>
                         <p>Some long text here</p>
@@ -18,9 +18,9 @@ export default function Projects() {
                     </div>
                     <div className="project-bg">
                         pic
-                    </div>
-                    
+                    </div>  
                 </div>
+
                 <div className="project-tile">Portfolio website</div>
                 <div className="project-tile">Snow plow robot</div>
                 <div className="project-tile">IEEE publicaion</div>
