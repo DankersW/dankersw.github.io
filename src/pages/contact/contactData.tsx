@@ -22,7 +22,7 @@ export const contactData = [
     },
     {
         title: "whatsapp",
-        url: "https://api.whatsapp.com/send?phone=0046720130370&text=Let%27s%20connect",
+        url: "https://api.whatsapp.com/send?phone=46720130370&text=Let%27s%20connect",
         icon: <RiWhatsappFill/>
     },
     {
