@@ -1,9 +1,9 @@
 import './App.css';
-import IntroPage from './pages/into'
-import Footer from './pages/footer'
-import Contact from './pages/contact'
-import About from "./pages/about"
-import Projects from "./pages/projects"
+import IntroPage from './pages/into/into'
+import Footer from './pages/footer/footer'
+import Contact from './pages/contact/contact'
+import About from "./pages/about/about"
+import Projects from "./pages/projects/projects"
 
 
 function App() {

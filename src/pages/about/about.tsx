@@ -3,7 +3,7 @@ import "./about.css"
 
 export default function About() {
     return (
-        <div className="about-container">
+        <div className="about-container bg-dark-grey section-wrapper">
             <h1 className="section-title">About</h1>
             <div className="about-flex-container">
                 <div className="color1 flex-item">#222831</div>
