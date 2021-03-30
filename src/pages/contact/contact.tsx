@@ -10,9 +10,9 @@ export default function Contact() {
             <h2 className="sub-title">Let's become E-BFFs</h2>
             <div className="icon-container">
                 <IconContext.Provider value={{color: '#ECECEC', size: '5rem'}}>
-                    {contactData.map((item) => {
+                    {contactData.map((item, index) => {
                         return (
-                            <div className="contact-flex-item">
+                            <div className="contact-flex-item" key={index}>
                                 <a href={item.url} target="_blank" rel="noopener noreferrer">
                                     {item.icon}
                                 </a>
