@@ -1,10 +1,6 @@
 import React from "react";
 import "./contact.css"
-import { FaFacebook } from 'react-icons/fa';
-import { IoMail, IoLogoLinkedin } from 'react-icons/io5';
-import { ImGithub } from 'react-icons/im';
-import { RiWhatsappFill } from 'react-icons/ri';
-import { AiFillInstagram} from 'react-icons/ai';
+import {contactData} from "./contactData"
 import {IconContext} from "react-icons"
 
 export default function Contact() {
@@ -14,46 +10,15 @@ export default function Contact() {
             <h2 className="sub-title">Let's become E-BFFs</h2>
             <div className="icon-container">
                 <IconContext.Provider value={{color: '#ECECEC', size: '5rem'}}>
-
-                    <div className="contact-flex-item">
-                        <a href="https://github.com/DankersW" target="_blank" rel="noopener noreferrer">
-                            <ImGithub/>
-                        </a>
-                    </div> 
-
-                    <div className="contact-flex-item">
-                        <a href="mailto:wouter.dankers@skynet.be?subject=Let%27s%20connect">
-                            <IoMail/>
-                        </a>
-                    </div> 
-
-                    <div className="contact-flex-item">
-                        <a href="https://www.linkedin.com/in/wouter-dankers-98162610b/" target="_blank" rel="noopener noreferrer">
-                            <IoLogoLinkedin/>
-                        </a>
-                    </div> 
-
-                    <div className="contact-flex-item">
-                        <a href="https://api.whatsapp.com/send?phone=0046720130370&text=Let%27s%20connect" target="_blank" rel="noopener noreferrer">
-                            <RiWhatsappFill/>
-                        </a>
-                    </div> 
-
-                    <div className="contact-flex-item">
-                        <a href="https://www.facebook.com/wouter.dankers/" target="_blank" rel="noopener noreferrer">
-                            <FaFacebook/>
-                        </a>
-                    </div> 
-
-                    <div className="contact-flex-item">
-                        <a href="https://www.instagram.com/wouterdankers/" target="_blank" rel="noopener noreferrer"> 
-                            <AiFillInstagram/>
-                        </a>
-                    </div> 
-
-
-                    
-
+                    {contactData.map((item) => {
+                        return (
+                            <div className="contact-flex-item">
+                                <a href={item.url} target="_blank" rel="noopener noreferrer">
+                                    {item.icon}
+                                </a>
+                            </div>
+                        )
+                    })}
                 </IconContext.Provider>
             </div>
         </div>
