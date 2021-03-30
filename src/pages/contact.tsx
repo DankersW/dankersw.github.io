@@ -9,7 +9,7 @@ import {IconContext} from "react-icons"
 
 export default function Contact() {
     return (
-        <div className="contact-container section-wrapper">
+        <div className="contact-container section-wrapper bg-dark-grey">
             <h1 className="section-title">Connect</h1>
             <h2 className="sub-title">Let's become E-BFFs</h2>
             <div className="icon-container">
