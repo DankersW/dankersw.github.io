@@ -8,13 +8,14 @@ export default function About() {
             <h1 className="section-title">About</h1>
             <div className="about-flex-container">
                 <div className="about-info">
-                    Life story: 
-                    Born and raised in the country side of Belgium. This also the place I lived to longest time of my life. 
-                    I took a bachelors in ICT in Geel Belgium and during my bachelors I studied in Sweden and did an internship in Beijing China. 
+                    Born and raised in the country side of Flanders Belgium. He Studied a bachelors degree in ICT from the Thomas More Hogeschool Geel Belgium and received a Master of Science degree in Embedded and Inteligent systems from Halmstad University.
 
-                    Hobbies and interests:
+                    Wouter takes great pride in writing well fuctioning code that scalles and ages well. 
 
-                    Currently I'm living together with my girlfriend Mathilda in a small apartment in the center of Göteborg.
+                    When Wouter is not working or writen software for his home projects, he tries to be outside as much as possible. Wouter an active outdours person who enjoys many sports and activies, Skiing, ice-hockey, rock-climbing, surfing, etc. just to name a few.
+                    
+
+                    Currently Wouter is living together with his girlfriend Mathilda in a cosy apartment in the center of Göteborg.
 
 
                 </div> 
