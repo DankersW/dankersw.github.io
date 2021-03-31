@@ -1,12 +1,19 @@
 import React from "react";
 import "./about.css"
-import wouterSnowPic from "./../../images/wouter.jpg"
+
 
 export default function About() {
     return (
         <div className="about-container bg-dark-grey section-wrapper">
             <h1 className="section-title">About</h1>
-            <div className="about-flex-container">
+            
+        </div>
+    );
+}
+
+/*
+import wouterSnowPic from "./../../images/wouter.jpg"
+<div className="about-flex-container">
                 <div className="about-info">
                     Born and raised in the country side of Flanders Belgium. He Studied a bachelors degree in ICT from the Thomas More Hogeschool Geel Belgium and received a Master of Science degree in Embedded and Inteligent systems from Halmstad University.
 
@@ -23,6 +30,4 @@ export default function About() {
                     <img src={wouterSnowPic} alt="BigCo Inc. logo"/>
                 </div>
             </div>
-        </div>
-    );
-}
+*/

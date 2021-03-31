@@ -18,7 +18,7 @@ export default function Projects() {
                                 <div className="overlay-description">
                                     <h3 className="overlay-title">{item.title}</h3>
 				                    <p>{item.description}</p>
-                                    <p>{item.tools}</p>
+                                    <p>Tools: {item.tools}</p>
                                     {item.link !== "" &&
                                         <a href={item.link} target="_blank" rel="noopener noreferrer">
                                             More

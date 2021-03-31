@@ -1,6 +1,7 @@
 .about-container {
     width: 100%;
-    color: #ECECEC
+    color: #ECECEC;
+    height: 78vh;
 }
 
 .about-flex-container {
