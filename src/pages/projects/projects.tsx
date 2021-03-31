@@ -1,7 +1,6 @@
 import React from "react";
 import "./projects.css"
-
-import bg_1 from "./../../images/project_bg_1.jpg"
+import {projectData} from "./projectData"
 
 export default function Projects() {
     return (
@@ -10,48 +9,27 @@ export default function Projects() {
             <h3 className="sub-sub-title">
                 A selection of some of my personal projects. All source code can be found on <a href="https://github.com/DankersW" target="_blank" rel="noopener noreferrer">Github</a>
             </h3>
-
             <div className="project-grid">
-
-                <div className="grid-item bg-abstact-1">
-                    <h3 className="grid-item-title">Home automation</h3>
-                    <div className="grid-item-overlay">
-			            <div className="overlay-description">
-                            <h3 className="overlay-title">Home automation</h3>
-				            <p>A little shiny description</p>
-                            <p>Tools: Python, Sketch-up, docker</p>
-                            <a href={"https://www.google.com"} target="_blank" rel="noopener noreferrer">
-                                Link
-                            </a>
-                            
-			            </div>
-		            </div>
-                </div>
-
-                <div className="grid-item bg-abstact-2">
-                    <h3 className="grid-item-title">DIY bed with storage</h3>
-                    <div className="grid-item-overlay">
-			            <div className="overlay-description">
-                            <h3 className="overlay-title">Home automation</h3>
-				            <p>A little shiny description</p>
-			            </div>
-		            </div>
-                </div>
-
-                
-
-
-
-                <div className="grid-item bg-abstact-1">Home automation</div>
-                <div className="grid-item bg-abstact-1">Portfolio website</div>
-                <div className="grid-item bg-abstact-2">Snow plow robot</div>
-                <div className="grid-item bg-abstact-3">IEEE publicaion</div>
-                <div className="grid-item bg-abstact-4">AI poker player</div>
-                <div className="grid-item bg-abstact-5">DIY bed with storage</div>
-                <div className="grid-item bg-abstact-6">Drone</div>
-
+                {projectData.map((item, index) => {
+                    return (
+                        <div className={'grid-item ' + item.bgPic} key={'grid_item' + index}>
+                            <h3 className="grid-item-title">{item.title}</h3>
+                            <div className="grid-item-overlay">
+                                <div className="overlay-description">
+                                    <h3 className="overlay-title">{item.title}</h3>
+				                    <p>{item.description}</p>
+                                    <p>{item.tools}</p>
+                                    {item.link !== "" &&
+                                        <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                            More
+                                        </a> 
+                                    }
+                                </div> 
+                            </div> 
+                        </div>
+                    )
+                })}
             </div>
-
         </div>
     );
 }

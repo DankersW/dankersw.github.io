@@ -1,5 +1,5 @@
 .project-grid {
-    padding: 0 5vw 0 5vw;
+    padding: 5vh 5vw 5vh 5vw;
     display: grid;
     gap: 1rem;
   
@@ -24,6 +24,7 @@
 .grid-item-overlay {
     background-color: #222831;
     opacity: 0;
+    color: white;
 
     display: flex;
     justify-content: left;
@@ -34,12 +35,10 @@
     bottom: 0px;
     left: 0;
     right: 0;
-
-    color: white;
 }
 
 .grid-item-overlay:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .grid-item:hover .grid-item-title {
@@ -64,9 +63,6 @@
     color: #f2a365;
     font-size: 1.5rem;
 }
-
-
-
 
 
 .bg-home-automation {
