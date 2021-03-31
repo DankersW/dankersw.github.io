@@ -1,3 +1,103 @@
-.projects-container {
-    height: 80vh;
+.project-grid {
+    padding: 5vh 5vw 5vh 5vw;
+    display: grid;
+    gap: 1rem;
+  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+
+    color: #ECECEC;
+}
+
+.grid-item-overlay {
+    background-color: #222831;
+    opacity: 0;
+    color: white;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+.grid-item-overlay:hover {
+    opacity: 0.8;
+}
+
+.grid-item:hover .grid-item-title {
+    visibility: hidden;
+}
+
+.grid-item-title {
+    font-size: 2rem;
+}
+
+.overlay-description {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.overlay-title {
+    color: #f2a365;
+    font-size: 1.5rem;
+}
+
+.overlay-description p {
+    padding: 0 1vw 0 1vw;
+    text-align: center;
+}
+
+
+.bg-home-automation {
+    background-image: url("./../../images/electronics.jpg");
+}
+.bg-abstact-1 {
+    background-image: url("./../../images/project_bg_1.jpg");
+    background-size: cover;
+}
+.bg-abstact-2 {
+    background-image: url("./../../images/project_bg_2.jpg");
+    background-size: cover;
+}
+.bg-abstact-3 {
+    background-image: url("./../../images/project_bg_3.jpg");
+    background-size: cover;
+}
+.bg-abstact-4 {
+    background-image: url("./../../images/project_bg_4.jpg");
+    background-size: cover;
+}
+.bg-abstact-5 {
+    background-image: url("./../../images/project_bg_5.jpg");
+    background-size: cover;
+}
+.bg-abstact-6 {
+    background-image: url("./../../images/project_bg_6.jpg");
+    background-size: cover;
+}
+.bg-abstact-7 {
+    background-image: url("./../../images/project_bg_6.jpg");
+    background-size: cover;
 }

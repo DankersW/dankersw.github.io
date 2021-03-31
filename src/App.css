@@ -31,6 +31,15 @@
   text-align: center;
   padding-bottom: 2vh;
 }
+.sub-sub-title {
+  font-size: 1rem;
+  text-align: center;
+  color: #ECECEC;
+}
+
+a {
+  color: #f2a365;
+}
 
 .content {
   z-index: 2;
