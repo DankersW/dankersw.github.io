@@ -69,10 +69,6 @@
     text-align: center;
 }
 
-
-.bg-home-automation {
-    background-image: url("./../../images/electronics.jpg");
-}
 .bg-abstact-1 {
     background-image: url("./../../images/project_bg_1.jpg");
     background-size: cover;
@@ -98,6 +94,6 @@
     background-size: cover;
 }
 .bg-abstact-7 {
-    background-image: url("./../../images/project_bg_6.jpg");
+    background-image: url("./../../images/project_bg_7.jpg");
     background-size: cover;
 }
