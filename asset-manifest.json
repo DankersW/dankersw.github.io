@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.bd8c9003.chunk.css",
-    "main.js": "/static/js/main.84d5a6f0.chunk.js",
-    "main.js.map": "/static/js/main.84d5a6f0.chunk.js.map",
+    "main.js": "/static/js/main.70a9662a.chunk.js",
+    "main.js.map": "/static/js/main.70a9662a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ffe44fe.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ffe44fe.js.map",
-    "static/js/2.722974d1.chunk.js": "/static/js/2.722974d1.chunk.js",
-    "static/js/2.722974d1.chunk.js.map": "/static/js/2.722974d1.chunk.js.map",
+    "static/js/2.5583c012.chunk.js": "/static/js/2.5583c012.chunk.js",
+    "static/js/2.5583c012.chunk.js.map": "/static/js/2.5583c012.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.bd8c9003.chunk.css.map": "/static/css/main.bd8c9003.chunk.css.map",
-    "static/js/2.722974d1.chunk.js.LICENSE.txt": "/static/js/2.722974d1.chunk.js.LICENSE.txt",
+    "static/js/2.5583c012.chunk.js.LICENSE.txt": "/static/js/2.5583c012.chunk.js.LICENSE.txt",
     "static/media/projects.css": "/static/media/project_bg_6.10bb966a.jpg",
     "static/media/App.css": "/static/media/parallax-bg.84244983.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1ffe44fe.js",
-    "static/js/2.722974d1.chunk.js",
+    "static/js/2.5583c012.chunk.js",
     "static/css/main.bd8c9003.chunk.css",
-    "static/js/main.84d5a6f0.chunk.js"
+    "static/js/main.70a9662a.chunk.js"
   ]
 }
