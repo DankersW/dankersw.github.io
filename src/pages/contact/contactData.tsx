@@ -1,4 +1,4 @@
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebook, FaStrava } from 'react-icons/fa';
 import { IoMail, IoLogoLinkedin } from 'react-icons/io5';
 import { ImGithub } from 'react-icons/im';
 import { RiWhatsappFill } from 'react-icons/ri';
@@ -34,5 +34,10 @@ export const contactData = [
         title: "instagram",
         url: "https://www.instagram.com/wouterdankers/",
         icon: <AiFillInstagram/>
-    }
+    },
+    {
+        title: "strava",
+        url: "https://www.strava.com/athletes/44159141",
+        icon: <FaStrava/>
+    },
 ]
