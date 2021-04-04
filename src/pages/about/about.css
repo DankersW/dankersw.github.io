@@ -1,8 +1,24 @@
 .about-container {
     width: 100%;
     color: #ECECEC;
-    height: 78vh;
 }
+
+
+.about-flex-wrapper {
+    display: flex;
+    margin: 0 5vw 0 5vw;
+    justify-content: center;
+}
+
+img {
+    max-width: 20vw;
+    max-height: auto;
+}
+
+.about-text {
+    width: 40vw;
+}
+
 
 .about-flex-container {
     display: flex;
@@ -10,10 +26,7 @@
     justify-content: space-around;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
+
 
 .about-pic {
     width: 500px;
