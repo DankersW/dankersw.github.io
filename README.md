@@ -4,8 +4,6 @@ Portfolio website
 
 ## Color combination
 
-Used colors are:
-
 - **Dark grey:** #222831
 - **Dark blue:** #30475e
 - **Deep orange:** #f2a365
