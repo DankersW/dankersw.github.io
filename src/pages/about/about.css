@@ -4,13 +4,13 @@
 }
 
 
-.about-flex-wrapper {
+.about-wrapper {
     display: flex;
     margin: 0 5vw 0 5vw;
     justify-content: center;
 }
 
-img {
+.about-wrapper img {
     max-width: 20vw;
     max-height: auto;
 }
@@ -19,24 +19,29 @@ img {
     width: 40vw;
 }
 
+.about-text p{
+    margin-bottom: 2vh;
+}
 
-.about-flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+/* This applies from 0px to 600px */
+@media (max-width: 600px) {
+    .about-wrapper {
+        display: grid;
+    }
+    .about-text {
+        width: 90vw;
+    }
+    .about-wrapper img {
+        max-width: 90vw;
+        max-height: auto;
+    }
 }
 
 
 
-.about-pic {
-    width: 500px;
-    height: auto;
-}
 
-.flex-item {
-    width: 100px;
-    height: 100px;
-}
+
+
 
 .color1 {
     background-color: #222831;
