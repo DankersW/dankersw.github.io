@@ -1,14 +1,14 @@
 # todo
 
 - Buy domain name
-- Call github API to get some data
-- Project grid with a cool hover function
-- cool intro page animation
-    - https://landing-page-create-react-app-1aizogf2e.now.sh/
-    - http://findmatthew.com/
-
-- about page with a cool map where i live
-- lighthouse CI
+- Increase lighthouse score
+- Show lighthouse score in readme
+- Dev stats page: showing some github api data, tech stack etc.
+- Readme with screenshots of the page
+- Find better pictures for the project page
+- Scroll down animation add scroll with me https://codemyui.com/magic-mouse-scroll-icon/
+- Fix color difference between pages, needs to be more visuable
+- Add color combination to the readme
 
 ## Instiration
 

@@ -1,29 +1,47 @@
 .about-container {
     width: 100%;
     color: #ECECEC;
-    height: 78vh;
 }
 
-.about-flex-container {
+.about-wrapper {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    margin: 5vh 5vw 5vh 5vw;
+    justify-content: center;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
+.about-wrapper img {
+    max-width: 20vw;
+    max-height: auto;
 }
 
-.about-pic {
-    width: 500px;
-    height: auto;
+.about-text {
+    width: 40vw;
 }
 
-.flex-item {
-    width: 100px;
-    height: 100px;
+.about-text p{
+    margin-bottom: 2vh;
+    padding-right: 2vw;
 }
+
+/* This applies from 0px to 600px */
+@media (max-width: 600px) {
+    .about-wrapper {
+        display: grid;
+    }
+    .about-text {
+        width: 90vw;
+    }
+    .about-wrapper img {
+        max-width: 90vw;
+        max-height: auto;
+    }
+}
+
+
+
+
+
+
 
 .color1 {
     background-color: #222831;
