@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.daf0a04a.chunk.css",
-    "main.js": "/static/js/main.c72f69e3.chunk.js",
-    "main.js.map": "/static/js/main.c72f69e3.chunk.js.map",
+    "main.css": "/static/css/main.b8986774.chunk.css",
+    "main.js": "/static/js/main.b04cfe8c.chunk.js",
+    "main.js.map": "/static/js/main.b04cfe8c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ffe44fe.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ffe44fe.js.map",
     "static/js/2.5583c012.chunk.js": "/static/js/2.5583c012.chunk.js",
     "static/js/2.5583c012.chunk.js.map": "/static/js/2.5583c012.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.daf0a04a.chunk.css.map": "/static/css/main.daf0a04a.chunk.css.map",
+    "static/css/main.b8986774.chunk.css.map": "/static/css/main.b8986774.chunk.css.map",
     "static/js/2.5583c012.chunk.js.LICENSE.txt": "/static/js/2.5583c012.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/parallax-bg.84244983.jpg",
-    "static/media/projects.css": "/static/media/project_bg_7.687ef325.jpg"
+    "static/media/projects.css": "/static/media/project_bg_7.687ef325.jpg",
+    "static/media/wouter.57060304.jpg": "/static/media/wouter.57060304.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1ffe44fe.js",
     "static/js/2.5583c012.chunk.js",
-    "static/css/main.daf0a04a.chunk.css",
-    "static/js/main.c72f69e3.chunk.js"
+    "static/css/main.b8986774.chunk.css",
+    "static/js/main.b04cfe8c.chunk.js"
   ]
 }
