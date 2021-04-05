@@ -6,8 +6,8 @@
 - Dev stats page: showing some github api data, tech stack etc.
 - Readme with screenshots of the page
 - Find better pictures for the project page
-- Scroll down animation add scroll with me https://codemyui.com/magic-mouse-scroll-icon/
 - Fix color difference between pages, needs to be more visuable
+- On scroll down, animation on the H1's where the Title comes in a cool way, Also firtst letter is in the orange color. https://codemyui.com/direction-aware-fill-text-effect/
 
 ## Instiration
 
