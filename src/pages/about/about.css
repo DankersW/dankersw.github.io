@@ -1,6 +1,7 @@
 .about-container {
     width: 100%;
     color: #ECECEC;
+    background-color: white;
 }
 
 .about-wrapper {
@@ -41,7 +42,18 @@
 
 
 
+.flex {
+    display: flex;
+    text-align: center;
+}
 
+.box {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .color1 {
     background-color: #222831;
@@ -53,5 +65,6 @@
     background-color: #f2a365;
 }
 .color4 {
-    background-color: #ECECEC;
+    background-color: #ececec;
+    color: #222831;
 }

@@ -20,6 +20,13 @@ export default function About() {
                 </div>
             </div>
 
+            <div className="flex">
+                <div className="color1 box">#222831</div>
+                <div className="color2 box">#30475e</div>
+                <div className="color3 box">#f2a365</div>
+                <div className="color4 box">#ececec</div>
+            </div>
+
             
         </div>
     );
