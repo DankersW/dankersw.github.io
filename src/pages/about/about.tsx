@@ -9,11 +9,11 @@ export default function About() {
             <h1 className="section-title">About</h1>
             <div className="about-wrapper">
                 <div className="about-text">
-                    <p>Born and raised in a small village on the country side of Flanders Belgium called Lichtaart.</p>
-                    <p>I Studied a bachelors degree in ICT from the Thomas More Hogeschool Geel Belgium and received a Master of Science degree in Embedded and Inteligent systems from Halmstad University.</p>
-                    <p>I take great pride in writing well fuctioning code that scalles and ages well.</p>
-                    <p>When I'm not working or writen software for my pet projects, I try to be outside as much as possible. I'm an active outdours person who enjoys many sports and activies, Skiing, ice-hockey, rock-climbing, surfing, etc. just to name a few.</p>
-                    <p>Currently Wouter is living together with his girlfriend Mathilda in a cosy apartment in the center of Göteborg.</p>
+                    <p>Born and raised on the country side of Belgium, in a small town called Lichtaart.</p>
+                    <p>I studied a bachelors degree in ICT (Iformation and Communication Technology) at the Thomas More Hogeschool Geel, Belgium. During my bachelor studies, I joined the Erasmus program where I did an exchange semester in Sweden. For my internship I went to Beijing China and stayed there for 1 semester. After graduating, I continued studying for a master's degree. I studied and received a MSc. Eng. (Master of Science in Engineering) degree in Embedded and Intelligent Systems from Halmstad University. During my studies I took a specialized track focusing on wireless communication.</p>
+                    <p>When I'm not working or thinkering around with one of my pet projects, I try to be outside as much as possible regardless of the weather conditions. I'm an active outdoors person who enjoys many sport activities; skiing, ice-hockey, rock-climbing, trail running, surfing, race cycling, etc. Just to name a few.</p>
+                    <p>One of my trades are that I take great pride in written clean and well functioning code that scales and ages well.</p>
+                    <p>Currently I'm living in a cosy apartment in the city center of Göteborg Sweden.</p>
                 </div>
                 <div className="pic">
                     <img src={wouterSnowPic} alt="Wouter"/>
