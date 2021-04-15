@@ -13,6 +13,8 @@
 - Skills page, with serperate eareass. (ci, build system, programming langueages, DB's, frontend, backend, micro-controllers, wireles technologies, technologies (IoT, C-its))
 - Add job info section 
 
+https://roadahoy.com/travels
+
 ## Instiration
 
 https://www.react-most-wanted.com/
