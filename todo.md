@@ -10,6 +10,7 @@
 - On scroll down, animation on the H1's where the Title comes in a cool way, Also firtst letter is in the orange color. https://codemyui.com/direction-aware-fill-text-effect/
 - Project page: adding proffesional projects to it aswell
 - More detailed (seperate project page) with pictures and text and all 
+- Skills page, with serperate eareass. (ci, build system, programming langueages, DB's, frontend, backend, micro-controllers, wireles technologies, technologies (IoT, C-its))
 
 ## Instiration
 
