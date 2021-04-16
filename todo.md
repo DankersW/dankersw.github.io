@@ -12,3 +12,4 @@
 - More detailed (seperate project page) with pictures and text and all 
 - Skills page, with serperate eareass. (ci, build system, programming langueages, DB's, frontend, backend, micro-controllers, wireles technologies, technologies (IoT, C-its))
 - Add job info section 
+- Toggle dark-light mode
