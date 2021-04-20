@@ -5,3 +5,4 @@
 - [most wanted](https://www.react-most-wanted.com/)
 - [landing page](https://github.com/front10/landing-page-create-react-app)
 - [findmatthew](http://findmatthew.com/)
+- [humblebee](https://www.humblebee.se/)
