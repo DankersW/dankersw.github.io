@@ -6,3 +6,8 @@
 - [landing page](https://github.com/front10/landing-page-create-react-app)
 - [findmatthew](http://findmatthew.com/)
 - [humblebee](https://www.humblebee.se/)
+
+## Color combo background
+
+Using our grey + Light blue + Blue
+![Backgournd Color combination](./src/images/background_color_inspiration.png)
