@@ -2,6 +2,8 @@
 
 ## Saent box
 
+Company: Memory X design Beijing, China
+
 An analog solution to a digital problem.
 
 Place The Box over your phone and get back to what’s essential. No more phubbing (when someone looks at their phone instead of you). No more mindless scrolling when you’re supposed to be working. The clear monolithic form can hold three phones to work in a team or family setting.
@@ -14,3 +16,6 @@ This box is machined on a standard two-axis mill from a solid block of pine in E
 
 The simple design enables us to use easily accessible local materials and processes while giving each product its own local provenance. The approach limits the environmental impact while distributing returns into local industries.
 
+## Brönnöy
+
+First commecial availible automomous sollution. The solution for Brønnøy Kalk AS consists of autonomous hub-to-hub solution transporting limestone in Velfjord, Norway. The autonomous Volvo FH trucks are managed by the operator of a wheel loader. The 5km long route includes driving in both tunnels and outdoor environment.
