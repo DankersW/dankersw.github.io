@@ -13,3 +13,7 @@
 - Skills page, with serperate eareass. (ci, build system, programming langueages, DB's, frontend, backend, micro-controllers, wireles technologies, technologies (IoT, C-its))
 - Add job info section 
 - Toggle dark-light mode
+
+project page:
+- desktop: on hover shower a snapshot of the info with button more info, on click on more info open page underneath and show picture slide show and text, remove when scrolling out
+- mobile: overlay snapshot info on scrol with effect, on click open more info screen that is one screen lenght
