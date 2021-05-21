@@ -13,3 +13,5 @@
 - Skills page, with serperate eareass. (ci, build system, programming langueages, DB's, frontend, backend, micro-controllers, wireles technologies, technologies (IoT, C-its))
 - Add job info section 
 - Toggle dark-light mode
+
+- Add clusterMap to page to see where people come from https://clustrmaps.com/
