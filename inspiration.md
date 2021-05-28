@@ -11,3 +11,5 @@
 
 Using our grey + Light blue + Blue
 ![Backgournd Color combination](./src/images/background_color_inspiration.png)
+
+![Backgournd color](./src/images/background_combo.png)
