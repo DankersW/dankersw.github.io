@@ -16,6 +16,8 @@
 
 - Add clusterMap to page to see where people come from https://clustrmaps.com/
 
+- Make publish workflow not run when any of the docks or the .md files are changed
+
 ## Project tile/card
 
 - Project page: adding proffesional projects to it aswell
