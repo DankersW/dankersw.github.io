@@ -6,6 +6,7 @@
 - [landing page](https://github.com/front10/landing-page-create-react-app)
 - [findmatthew](http://findmatthew.com/)
 - [humblebee](https://www.humblebee.se/)
+- [poetry](https://python-poetry.org/)
 
 ## Color combo background
 
