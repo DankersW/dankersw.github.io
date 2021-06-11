@@ -7,6 +7,7 @@
 - [findmatthew](http://findmatthew.com/)
 - [humblebee](https://www.humblebee.se/)
 - [poetry](https://python-poetry.org/)
+- [primsa](https://www.paloaltonetworks.com/prisma/cloud/cloud-workload-protection-platform)
 
 ## Color combo background
 
