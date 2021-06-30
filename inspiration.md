@@ -11,6 +11,8 @@
 
 ## Color combo background
 
+[Volvo cars color schema](https://design.volvocars.com/colour/brand-colours/)
+
 Using our grey + Light blue + Blue
 ![Backgournd Color combination](./src/images/background_color_inspiration.png)
 
