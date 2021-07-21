@@ -4,7 +4,7 @@ import {projectData} from "./projectData"
 
 export default function Projects() {
     return (
-        <div className="projects-container section-wrapper bg-grey">
+        <div className="projects-container section-wrapper bg-dark-grey">
             <h1 className="section-title">Projects</h1>
             <h3 className="sub-sub-title">
                 A selection of some of my personal projects. All source code can be found on <a href="https://github.com/DankersW" target="_blank" rel="noopener noreferrer">Github</a>

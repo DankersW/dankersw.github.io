@@ -5,7 +5,7 @@ import ScrolDown from "./../../components/scrol/scrolDown"
 
 export default function IntoPage() {
     return (
-        <div className="container bg-grey">
+        <div className="container bg-dark-grey">
             <span/>
             <div className="flexitem-text">
                 <h1 className="into-name">Hi, I'm Wouter Dankers</h1>
