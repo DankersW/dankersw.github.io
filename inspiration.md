@@ -8,7 +8,8 @@
 - [humblebee](https://www.humblebee.se/)
 - [poetry](https://python-poetry.org/)
 - [primsa](https://www.paloaltonetworks.com/prisma/cloud/cloud-workload-protection-platform)
-
+- [tobias svehagen](https://svehagen.io/)
+- [udim me](https://udim.me/)
 ## Color combo background
 
 [Volvo cars color schema](https://design.volvocars.com/colour/brand-colours/)
