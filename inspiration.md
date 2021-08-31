@@ -10,6 +10,8 @@
 - [primsa](https://www.paloaltonetworks.com/prisma/cloud/cloud-workload-protection-platform)
 - [tobias svehagen](https://svehagen.io/)
 - [udim me](https://udim.me/)
+- [border](https://moderncss.dev/the-3-css-methods-for-adding-element-borders/) Really cool boarder devision
+
 ## Color combo background
 
 [Volvo cars color schema](https://design.volvocars.com/colour/brand-colours/)
