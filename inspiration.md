@@ -11,6 +11,7 @@
 - [tobias svehagen](https://svehagen.io/)
 - [udim me](https://udim.me/)
 - [border](https://moderncss.dev/the-3-css-methods-for-adding-element-borders/) Really cool boarder devision
+- [cool page layout](https://www.hashicorp.com/)
 
 ## Color combo background
 
