@@ -14,6 +14,7 @@
 - [cool page layout](https://www.hashicorp.com/)
 - [Page sections](https://www.wirelesscar.com/)
 - [Project page and page layout](https://www.ekkono.ai/)
+- [The card animation](https://www.framer.com/motion/)
 
 ## Color combo background
 
