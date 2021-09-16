@@ -2,6 +2,8 @@ import React from "react";
 import "./projects.css"
 import {projectData} from "./projectData"
 
+import Card from '../../components/card/card'
+
 export default function Projects() {
     return (
         <div className="projects-container section-wrapper bg-dark-grey">
@@ -9,6 +11,9 @@ export default function Projects() {
             <h3 className="sub-sub-title">
                 A selection of some of my personal projects. All source code can be found on <a href="https://github.com/DankersW" target="_blank" rel="noopener noreferrer">Github</a>
             </h3>
+
+            {<Card/>}
+
             <div className="project-grid">
                 {projectData.map((item, index) => {
                     return (
