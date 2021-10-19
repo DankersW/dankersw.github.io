@@ -8,6 +8,7 @@
 - On scroll down, animation on the H1's where the Title comes in a cool way, Also firtst letter is in the orange color. https://codemyui.com/direction-aware-fill-text-effect/
 - Add clusterMap to page to see where people come from https://clustrmaps.com/
 - Make publish workflow not run when any of the docks or the .md files are changed
+- Cleanup image folder
 
 ## Layout
 
