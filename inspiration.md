@@ -17,6 +17,7 @@
 - [border on bottom when hover](https://moderncss.dev/the-3-css-methods-for-adding-element-borders/) Really cool boarder devision
 - [The card animation](https://www.framer.com/motion/)
 - [Awesome card anitmation codepen](https://codesandbox.io/s/app-store-ui-using-react-and-framer-motion-ecgc2?file=/src/index.tsx)
+- when clicking on the plus button (black) a overlay appears over the image, with some more information, same as hover for desktop ![Cool project tile](./src/images/project_tile.png)
 
 # Color combo background
 
