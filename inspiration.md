@@ -1,5 +1,9 @@
 # Web inspiration
 
+do this for about me and some project stuff.
+https://syedmisbah.github.io/
+
+
 ## Page layout
 - [roadahoy](https://roadahoy.com/travels)
 - [goovinn](https://www.goovinn.se/)
