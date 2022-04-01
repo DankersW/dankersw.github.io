@@ -2,6 +2,10 @@
 
 Portfolio website
 
+```sh
+npm start
+```
+
 ## Color combination
 
 - **Dark grey:** #222831
