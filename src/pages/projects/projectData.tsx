@@ -43,7 +43,7 @@ export const projectData = [
     },
     {
         bgPic: "bg-abstact-7",
-        title: "DIY bed with storage",
+        title: "Woodworking",
         description: "DIY bedframe with drawers for storage underneath",
         tools: "SketchUp",
         link: ""
