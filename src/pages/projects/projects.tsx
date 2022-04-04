@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css"
 import {projectData} from "./projectData"
+import { BsPlusSquare} from 'react-icons/bs';
 
 export default function Projects() {
     return (
@@ -16,7 +17,7 @@ export default function Projects() {
             <div className="project-grid">
                 {projectData.map((item, index) => {
                     return (
-                        <div className={'grid-item ' + item.bgPic} key={'grid_item' + index}>
+                        <div className={item.bgPic + ' grid-item'} key={'grid_item' + index}>
                             <div className="grid-item-overlay">
                                 <div className="overlay-description">
                                     <h3 className="overlay-title">{item.title}</h3>
@@ -31,8 +32,9 @@ export default function Projects() {
                                 
                                 
                             </div>
-                            <div className="grid-item-title">
-                                <h3>{item.title}</h3> 
+                            <div className="grid-item-header">
+                                <h3>{item.title} <BsPlusSquare/></h3>
+                                
                             </div>
                         </div>
                     )
