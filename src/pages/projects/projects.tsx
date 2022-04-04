@@ -1,7 +1,12 @@
 import React from "react";
 import "./projects.css"
 import {projectData} from "./projectData"
-import { BsPlusSquare} from 'react-icons/bs';
+import Button from "@material-ui/core/IconButton";
+import { FiPlusCircle} from 'react-icons/fi';
+
+function click() {
+
+}
 
 export default function Projects() {
     return (
@@ -29,12 +34,12 @@ export default function Projects() {
                                         </a> 
                                     }
                                 </div>
-                                
-                                
                             </div>
                             <div className="grid-item-header">
-                                <h3>{item.title} <BsPlusSquare/></h3>
-                                
+                                <h3>{item.title}</h3>
+                                <Button >
+                                    +
+                                </Button>
                             </div>
                         </div>
                     )
@@ -43,5 +48,7 @@ export default function Projects() {
         </div>
     );
 }
+
+//<FiPlusCircle />
 
 // TODO: A more and less button that transittions the overlay nicely

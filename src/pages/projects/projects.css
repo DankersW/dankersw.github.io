@@ -41,13 +41,16 @@
     right: 0;
 }
 
+/*
 .grid-item-overlay:hover {
     opacity: 0.8;
 }
 
+
 .grid-item:hover .grid-item-header {
     visibility: hidden;
 }
+*/
 
 .grid-item-header{
     font-size: 1.5rem;
@@ -59,9 +62,31 @@
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 
+    text-align: center;
+
     width: 100%;
     height: 100px;
+
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
 }
+
+.plus-icon{
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+/*
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+*/
 
 .overlay-description {
     width: 100%;
