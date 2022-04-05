@@ -1,12 +1,6 @@
 import React from "react";
 import "./projects.css"
 import {projectData} from "./projectData"
-import Button from "@material-ui/core/IconButton";
-import { FiPlusCircle} from 'react-icons/fi';
-
-function click() {
-
-}
 
 export default function Projects() {
     return (
@@ -37,14 +31,22 @@ export default function Projects() {
                             </div>
                             <div className="grid-item-header">
                                 <h3>{item.title}</h3>
-                                <Button >
-                                    +
-                                </Button>
                             </div>
                         </div>
                     )
                 })}
             </div>
+
+            <div className="grid">
+            <div className="card">
+                <div className="card-content">
+                    <h2 className="card-title">Somethign Aweseom</h2>
+                    <p className="card-body">Alot of text goes here, maybe I should realy download that lorum ipsilum pluging, or whatevet it is called.</p>
+                    <a href="#" className="button">Learn More</a>
+                </div>
+            </div>
+            </div>
+
         </div>
     );
 }

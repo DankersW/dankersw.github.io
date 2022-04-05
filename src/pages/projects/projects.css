@@ -136,3 +136,33 @@
     background-image: url("./../../images/project_bg_7.jpg");
     background-size: cover;
 }
+
+
+/* TRYOUT ----------- */
+
+.grid {
+    padding: 5vh 5vw 5vh 5vw;
+    display: grid;
+    gap: 1rem;
+    
+    min-height: 100vh;
+
+    place-items: center;
+}
+
+.card {
+    color: #ECECEC;
+    background-image: url("./../../images/project_bg_7.jpg");
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+}
+
+.card-content {
+    padding: 1.5em;
+    background: linear-gradient(
+        hsl(0 0% 0% /0),
+        hsl(0 0% 0% /0.5) 20%,
+        hsl(0 0% 0% / 1)
+    );
+}
