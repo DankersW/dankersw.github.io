@@ -17,10 +17,31 @@ export default function Projects() {
                 (Hover over the tiles for more info)
             </h4>
             <div className="project-grid">
-                
                 {projectData.map((item, index) => {
                     return (
-                        <div className={item.bgPic + ' grid-item'} key={'grid_item' + index}>
+                        <div className="card">
+                            <div className="card-content">
+                                <h2 className="card-title">Somethign Aweseom</h2>
+                                <p className="card-body">Alot of text goes here, maybe I should realy download that lorum ipsilum pluging, or whatevet it is called.</p>
+                                <a href={item.link}  className="button">Learn More</a>
+                            </div>
+                        </div>
+
+                        
+                    )
+                })}
+            </div>
+        </div>
+    );
+}
+
+//<FiPlusCircle />
+
+// TODO: A more and less button that transittions the overlay nicely
+
+/*
+
+<div className={item.bgPic + ' grid-item'} key={'grid_item' + index}>
                             <div className="grid-item-overlay">
                                 <div className="overlay-description">
                                     <h3 className="overlay-title">{item.title}</h3>
@@ -37,24 +58,5 @@ export default function Projects() {
                                 <h3>{item.title}</h3>
                             </div>
                         </div>
-                    )
-                })}
-            </div>
 
-            <div className="grid">
-            <div className="card">
-                <div className="card-content">
-                    <h2 className="card-title">Somethign Aweseom</h2>
-                    <p className="card-body">Alot of text goes here, maybe I should realy download that lorum ipsilum pluging, or whatevet it is called.</p>
-                    <a href="#" className="button">Learn More</a>
-                </div>
-            </div>
-            </div>
-
-        </div>
-    );
-}
-
-//<FiPlusCircle />
-
-// TODO: A more and less button that transittions the overlay nicely
+*/
