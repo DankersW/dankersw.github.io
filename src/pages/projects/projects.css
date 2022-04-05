@@ -156,13 +156,56 @@
     background-size: cover;
     padding: 10rem 0 0;
     max-width: 35ch;
+
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 
 .card-content {
-    padding: 1.5em;
+    --padding: 1.5rem;
+    padding: var(--padding);
     background: linear-gradient(
         hsl(0 0% 0% /0),
         hsl(0 0% 0% /0.5) 20%,
         hsl(0 0% 0% / 1)
     );
+}
+
+.card-title {
+    position: relative;
+    max-width: 100%;
+    width: max-content;
+    padding-bottom: 0.2em;
+}
+
+.card-title::after {
+    content: '';
+    position: absolute;
+    
+    height: 4px;
+    left: calc(var(--padding) * -1);
+    bottom: 0;
+    width: calc(100% + var(--padding));
+
+    background: #f2a365;
+}
+
+.card-body {
+    color: rgb(255, 255, 255 / 0.9);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #222831;
+    background-color:#f2a365 ;
+    padding: 0.5em 1.25em;
+    border-radius: 0.25em;
+}
+
+.button:hover, .button:focus {
+    background-color:#ECECEC;
 }
