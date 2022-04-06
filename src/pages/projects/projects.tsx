@@ -32,29 +32,3 @@ export default function Projects() {
         </div>
     );
 }
-
-//<FiPlusCircle />
-
-// TODO: A more and less button that transittions the overlay nicely
-
-/*
-
-<div className={item.bgPic + ' grid-item'} key={'grid_item' + index}>
-                            <div className="grid-item-overlay">
-                                <div className="overlay-description">
-                                    <h3 className="overlay-title">{item.title}</h3>
-				                    <p>{item.description}</p>
-                                    <p>Tools: {item.tools}</p>
-                                    {item.link !== "" &&
-                                        <a href={item.link} target="_blank" rel="noopener noreferrer">
-                                            More
-                                        </a> 
-                                    }
-                                </div>
-                            </div>
-                            <div className="grid-item-header">
-                                <h3>{item.title}</h3>
-                            </div>
-                        </div>
-
-*/
