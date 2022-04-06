@@ -1,51 +1,38 @@
 export const projectData = [
     {
-        bgPic: "bg-abstact-1",
+        bgPic: "bg-abstact-5",
         title: "Home Automation",
-        description: "My Home-automation project consists of several IoT devices, a framework, and an GUI",
-        tools: "Python, Docker, Go, Javascript, Embedded C++",
+        description: "Consisting of several IoT devices, networks and micro-serives, written different languages",
         link: "https://github.com/DankersW/home-automation"
     },
     {
         bgPic: "bg-abstact-2",
         title: "Portfolio website",
-        description: "My personal portfolio website writen in Typescript using React",
-        tools: "Typescript, CSS, React",
+        description: "The website you're looking at. My portfolio website is writen in Typescript using React",
         link: "https://github.com/DankersW/dankersw.github.io"
     },
     {
         bgPic: "bg-abstact-3",
         title: "DIY drone",
-        description: "Powerfull lifting drone make from skretch",
-        tools: "Python, Robotics",
-        link: ""
+        description: "Powerfull lifting drone made from skretch. The drone got stolen before I managed to finish it",
+        link: "https://i.scdn.co/image/ab67616d0000b2732f9456e33057335ebec5b781"
     },
     {
         bgPic: "bg-abstact-4",
         title: "Snowplow robot",
         description: "Autonomous robot snowplow fleet for the course Design of Embedded and Intelligent Systems",
-        tools: "C++, Python, RTOS, Machine learning, Vision, Robotics",
         link: "https://github.com/DankersW/DEIS_robot"
     },
     {
-        bgPic: "bg-abstact-5",
+        bgPic: "bg-abstact-1",
         title: "IEEE publication",
-        description: "Master thesis publication in IEEE Transactions on Vehicular Technology",
-        tools: "Wireless communication",
+        description: "Published several paperrs from the results of my master thesis in IEEE Transactions on Vehicular Technology",
         link: "https://ieeexplore.ieee.org/abstract/document/8771197"
     },
     {
-        bgPic: "bg-abstact-6",
-        title: "AI poker player",
-        description: "AI poker designed to join an online poker tournament",
-        tools: "Python, Machine learning",
-        link: ""
-    },
-    {
         bgPic: "bg-abstact-7",
-        title: "DIY bed with storage",
-        description: "DIY bedframe with drawers for storage underneath",
-        tools: "SketchUp",
+        title: "Woodworking",
+        description: "Projects ranging from a storage bed to build-in closets. I draw my projects before hand in 3D using Sketch-up",
         link: ""
     },
 ]

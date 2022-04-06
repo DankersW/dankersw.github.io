@@ -3,74 +3,13 @@
     display: grid;
     gap: 1rem;
   
+    
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: 300px;
 }
 
-.grid-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    position: relative;
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-
-    color: #ECECEC;
-}
-
-.grid-item-overlay {
-    background-color: #222831;
-    opacity: 0;
-    color: white;
-
-    display: flex;
-    justify-content: left;
-    align-items: center;
-
-    position: absolute;
-    top: 0;
-    bottom: 0px;
-    left: 0;
-    right: 0;
-}
-
-.grid-item-overlay:hover {
-    opacity: 0.8;
-}
-
-.grid-item:hover .grid-item-title {
-    visibility: hidden;
-}
-
-.grid-item-title {
-    font-size: 2rem;
-}
-
-.overlay-description {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-}
-
-.overlay-title {
-    color: #f2a365;
-    font-size: 1.5rem;
-}
-
-.overlay-description p {
-    padding: 0 1vw 0 1vw;
-    text-align: center;
-}
 
 .bg-abstact-1 {
-    background-image: url("./../../images/project_bg_1.jpg");
+    background-image: url("./../../images/research.avif");
     background-size: cover;
 }
 .bg-abstact-2 {
@@ -78,22 +17,132 @@
     background-size: cover;
 }
 .bg-abstact-3 {
-    background-image: url("./../../images/project_bg_3.jpg");
+    background-image: url("./../../images/drone.jpeg");
     background-size: cover;
 }
 .bg-abstact-4 {
-    background-image: url("./../../images/project_bg_4.jpg");
+    background-image: url("./../../images/robot.avif");
     background-size: cover;
 }
 .bg-abstact-5 {
-    background-image: url("./../../images/project_bg_5.jpg");
-    background-size: cover;
-}
-.bg-abstact-6 {
-    background-image: url("./../../images/project_bg_6.jpg");
+    background-image: url("./../../images/home.avif");
     background-size: cover;
 }
 .bg-abstact-7 {
     background-image: url("./../../images/project_bg_7.jpg");
     background-size: cover;
+}
+
+.card {
+    color: #ECECEC;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    transition: transform 500ms ease;
+}
+
+.card-content {
+    --padding: 1.5rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% 0% /0),
+        hsl(0 0% 0% /0.5) 20%,
+        hsl(0 0% 0% / 1)
+    );
+}
+
+.hover-tip {
+    visibility: hidden;
+}
+
+.card-title {
+    position: relative;
+    max-width: 100%;
+
+    width: max-content;
+    padding-bottom: 0.2em;
+    text-align: center;
+}
+
+.card-title::after {
+    content: '';
+    position: absolute;
+    
+    height: 4px;
+    left: calc(var(--padding) * -1);
+    bottom: -2px;
+    width: calc(100% + var(--padding));
+
+    background: #f2a365;
+
+    transform-origin: left;
+    transition: transform 500ms ease;
+}
+
+@media (hover) {
+    .card-content {
+        transform: translateY(65%);
+        transition: transform 500ms ease;
+    }
+
+    .card:hover .card-content, .card:focus-within .card-content{
+        transform: translateY(0%);
+        transition-delay: 500ms;
+    }
+    
+    .card:focus-within .card-content { 
+        transition-duration: 0ms;
+    }
+    
+    .card-content > *:not(.card-title) {
+        opacity: 0;
+        transition: opacity 500ms linear;
+    }
+    
+    .card:hover .card-content > *:not(.card-title),
+    .card:focus-within .card-content > *:not(.card-title) {
+        opacity: 1;
+        transition-delay: 500ms;
+    }
+    
+    .card:hover .card-title::after,
+    .card:focus-within .card-title::after {
+        transform: scaleX(1);
+    }
+
+    .card:hover, .card:focus-within {
+        transform: scale(1.05);
+    }
+
+    .hover-tip {
+        visibility: visible;
+    }
+
+    .card-title::after {
+        transform: scaleX(0);
+    }
+}
+
+
+.card-body {
+    color: rgb(255, 255, 255 / 0.9);
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #222831;
+    background-color:#f2a365 ;
+    padding: 0.5em 1.25em;
+    border-radius: 0.25em;
+}
+
+.button:hover, .button:focus {
+    background-color:#ECECEC;
 }

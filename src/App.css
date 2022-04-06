@@ -33,6 +33,12 @@
   text-align: center;
   color: #ECECEC;
 }
+.sub-sub-sub-title {
+  font-size: 1rem;
+  text-align: center;
+  color: #ECECEC;
+  font-weight: normal;
+}
 
 a {
   color: #f2a365;
