@@ -2,23 +2,23 @@ export const projectData = [
     {
         bgPic: "bg-abstact-1",
         title: "Home Automation",
-        description: "My Home-automation project consists of several IoT devices, a framework, and an GUI",
+        description: "Consisting of several IoT devices, networks and micro-serives, written different languages",
         tools: "Python, Docker, Go, Javascript, Embedded C++",
         link: "https://github.com/DankersW/home-automation"
     },
     {
         bgPic: "bg-abstact-2",
         title: "Portfolio website",
-        description: "My personal portfolio website writen in Typescript using React",
+        description: "The website you're looking at. My portfolio website is writen in Typescript using React",
         tools: "Typescript, CSS, React",
         link: "https://github.com/DankersW/dankersw.github.io"
     },
     {
         bgPic: "bg-abstact-3",
         title: "DIY drone",
-        description: "Powerfull lifting drone make from skretch",
+        description: "Powerfull lifting drone made from skretch. The drone got stolen before I managed to finish it",
         tools: "Python, Robotics",
-        link: ""
+        link: "https://i.scdn.co/image/ab67616d0000b2732f9456e33057335ebec5b781"
     },
     {
         bgPic: "bg-abstact-4",
@@ -30,7 +30,7 @@ export const projectData = [
     {
         bgPic: "bg-abstact-5",
         title: "IEEE publication",
-        description: "Master thesis publication in IEEE Transactions on Vehicular Technology",
+        description: "Several papers got published from my master thesis in IEEE Transactions on Vehicular Technology",
         tools: "Wireless communication",
         link: "https://ieeexplore.ieee.org/abstract/document/8771197"
     },
