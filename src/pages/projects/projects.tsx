@@ -19,15 +19,13 @@ export default function Projects() {
             <div className="project-grid">
                 {projectData.map((item, index) => {
                     return (
-                        <div className="card">
+                        <div className={item.bgPic + ' card'}>
                             <div className="card-content">
-                                <h2 className="card-title">Somethign Aweseom</h2>
-                                <p className="card-body">Alot of text goes here, maybe I should realy download that lorum ipsilum pluging, or whatevet it is called.</p>
+                                <h2 className="card-title">{item.title}</h2>
+                                <p className="card-body">{item.description}</p>
                                 <a href={item.link}  className="button">Learn More</a>
                             </div>
                         </div>
-
-                        
                     )
                 })}
             </div>
