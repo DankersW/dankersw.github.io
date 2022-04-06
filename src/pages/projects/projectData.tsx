@@ -1,6 +1,6 @@
 export const projectData = [
     {
-        bgPic: "bg-abstact-1",
+        bgPic: "bg-abstact-5",
         title: "Home Automation",
         description: "Consisting of several IoT devices, networks and micro-serives, written different languages",
         link: "https://github.com/DankersW/home-automation"
@@ -24,7 +24,7 @@ export const projectData = [
         link: "https://github.com/DankersW/DEIS_robot"
     },
     {
-        bgPic: "bg-abstact-5",
+        bgPic: "bg-abstact-1",
         title: "IEEE publication",
         description: "Published several paperrs from the results of my master thesis in IEEE Transactions on Vehicular Technology",
         link: "https://ieeexplore.ieee.org/abstract/document/8771197"

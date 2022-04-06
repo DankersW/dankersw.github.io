@@ -9,7 +9,7 @@
 
 
 .bg-abstact-1 {
-    background-image: url("./../../images/project_bg_1.jpg");
+    background-image: url("./../../images/research.avif");
     background-size: cover;
 }
 .bg-abstact-2 {
@@ -17,19 +17,15 @@
     background-size: cover;
 }
 .bg-abstact-3 {
-    background-image: url("./../../images/project_bg_3.jpg");
+    background-image: url("./../../images/drone.jpeg");
     background-size: cover;
 }
 .bg-abstact-4 {
-    background-image: url("./../../images/project_bg_4.jpg");
+    background-image: url("./../../images/robot.avif");
     background-size: cover;
 }
 .bg-abstact-5 {
-    background-image: url("./../../images/project_bg_5.jpg");
-    background-size: cover;
-}
-.bg-abstact-6 {
-    background-image: url("./../../images/project_bg_6.jpg");
+    background-image: url("./../../images/home.avif");
     background-size: cover;
 }
 .bg-abstact-7 {
