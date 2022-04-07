@@ -23,8 +23,18 @@ export default function About() {
 
             <div className="grid-container">
                 <div className="grid-item"> <img src={wouterSmile} alt="Big smile"/> </div>
-                <div className="grid-item grid-item-wide"> 2 </div>
-                <div className="grid-item grid-item-wide"> 3 </div>
+                <div className="grid-item grid-item-wide">
+                    <div className="grid-item-content">
+                        <h2>Something about myself</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit et libero ut fermentum. Aliquam a lobortis sapien, vitae vehicula eros. Suspendisse potenti. Pellentesque facilisis odio diam, et cursus mi sagittis eget. Cras vel maximus diam. Mauris hendrerit ipsum lacus. Ut nec vehicula quam. Morbi arcu sapien, congue sit amet vulputate eu, hendrerit vel massa. Morbi luctus vulputate tortor, eget vulputate tortor. Etiam ultricies ipsum nunc, in vulputate eros viverra sit amet. Vivamus venenatis dolor ut odio condimentum, eget blandit nulla bibendum. Pellentesque vitae blandit quam, non auctor odio. Vivamus at placerat nisi, sagittis porta tellus. Morbi elementum a lorem et dictum. Nunc a enim eu sem pulvinar tincidunt id scelerisque metus. Quisque diam nunc, iaculis eu consequat eget, vulputate a arcu.</p>
+                    </div> 
+                </div>
+                <div className="grid-item grid-item-wide">
+                    <div className="grid-item-content">
+                        <h2>What more?</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit et libero ut fermentum. Aliquam a lobortis sapien, vitae vehicula eros. Suspendisse potenti. Pellentesque facilisis odio diam, et cursus mi sagittis eget. Cras vel maximus diam. Mauris hendrerit ipsum lacus. Ut nec vehicula quam. Morbi arcu sapien, congue sit amet vulputate eu, hendrerit vel massa. Morbi luctus vulputate tortor, eget vulputate tortor. Etiam ultricies ipsum nunc, in vulputate eros viverra sit amet. Vivamus venenatis dolor ut odio condimentum, eget blandit nulla bibendum. Pellentesque vitae blandit quam, non auctor odio. Vivamus at placerat nisi, sagittis porta tellus. Morbi elementum a lorem et dictum. Nunc a enim eu sem pulvinar tincidunt id scelerisque metus. Quisque diam nunc, iaculis eu consequat eget, vulputate a arcu.</p>
+                    </div> 
+                </div>
                 <div className="grid-item"> <img src={wouterSnowPic} alt="Snow"/>  </div>
             </div>            
         </div>
