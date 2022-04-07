@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css"
 import wouterSnowPic from "./../../images/wouter.jpg"
+import wouterSmile from "./../../images/wouter_smile.jpg"
 
 
 export default function About() {
@@ -16,9 +17,18 @@ export default function About() {
                     <p>Currently I'm living in a cosy apartment in the city center of Göteborg Sweden.</p>
                 </div>
                 <div className="pic">
-                    <img src={wouterSnowPic} alt="Wouter"/>
+                    imga
                 </div>
+            </div>
+
+            <div className="grid-container">
+                <div className="grid-item"> <img src={wouterSmile} alt="Big smile"/> </div>
+                <div className="grid-item grid-item-wide"> 2 </div>
+                <div className="grid-item grid-item-wide"> 3 </div>
+                <div className="grid-item"> <img src={wouterSnowPic} alt="Snow"/>  </div>
             </div>            
         </div>
     );
 }
+
+//  <img src={wouterSnowPic} alt="Wouter"/>
