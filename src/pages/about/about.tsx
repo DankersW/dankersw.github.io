@@ -34,7 +34,8 @@ export default function About() {
                 <div className="grid-item grid-item-wide">
                     <div className="grid-item-content">
                         <h2>How do I spend my free time?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit et libero ut fermentum. Aliquam a lobortis sapien, vitae vehicula eros. Suspendisse potenti. Pellentesque facilisis odio diam, et cursus mi sagittis eget. Cras vel maximus diam. Mauris hendrerit ipsum lacus. Ut nec vehicula quam. Morbi arcu sapien, congue sit amet vulputate eu, hendrerit vel massa. Morbi luctus vulputate tortor, eget vulputate tortor. Etiam ultricies ipsum nunc, in vulputate eros viverra sit amet. Vivamus venenatis dolor ut odio condimentum, eget blandit nulla bibendum. Pellentesque vitae blandit quam, non auctor odio. Vivamus at placerat nisi, sagittis porta tellus. Morbi elementum a lorem et dictum. Nunc a enim eu sem pulvinar tincidunt id scelerisque metus. Quisque diam nunc, iaculis eu consequat eget, vulputate a arcu.</p>
+                        <p>I very much enjoy tinkering with technology and building projects, but when I'm not sitting behind my computer I'll spend it outside as much as possible regardless of the weather conditions. </p>
+                        <p>Some of the activities and sports I do, include alpine & backcountry skiing, ice hockey, rock climbing, trail running, surfing, race cycling, etc. Just to name a few.</p>
                     </div> 
                 </div>
                 <div className="grid-item"> <img src={wouterSnowPic} alt="Snow"/>  </div>
