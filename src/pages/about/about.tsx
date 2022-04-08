@@ -25,13 +25,15 @@ export default function About() {
                 <div className="grid-item"> <img src={wouterSmile} alt="Big smile"/> </div>
                 <div className="grid-item grid-item-wide">
                     <div className="grid-item-content">
-                        <h2>Something about myself</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit et libero ut fermentum. Aliquam a lobortis sapien, vitae vehicula eros. Suspendisse potenti. Pellentesque facilisis odio diam, et cursus mi sagittis eget. Cras vel maximus diam. Mauris hendrerit ipsum lacus. Ut nec vehicula quam. Morbi arcu sapien, congue sit amet vulputate eu, hendrerit vel massa. Morbi luctus vulputate tortor, eget vulputate tortor. Etiam ultricies ipsum nunc, in vulputate eros viverra sit amet. Vivamus venenatis dolor ut odio condimentum, eget blandit nulla bibendum. Pellentesque vitae blandit quam, non auctor odio. Vivamus at placerat nisi, sagittis porta tellus. Morbi elementum a lorem et dictum. Nunc a enim eu sem pulvinar tincidunt id scelerisque metus. Quisque diam nunc, iaculis eu consequat eget, vulputate a arcu.</p>
+                        <h2>A few words about myself</h2>
+                        <p>I'm born and raised on the countryside of Belgium, in a small town called <a href="https://goo.gl/maps/7iAzU7YpKzK7SvMR7" target="_blank" rel="noopener noreferrer">Lichtaart</a>.</p>
+                        <p>During my studies I was offered the opportunity to study abroad by my lovely parents. After spending a semester in Sweden followed by one in Beijing, I came to the conclusion that I wanted to continue my adventure in Sweden and started a Masters's program in Halmstad Sweden.</p>
+                        <p>After my studies I got offered a job and moved to Göteborg, where I'm still living together with my fantastic partner Mathilda.</p>    
                     </div> 
                 </div>
                 <div className="grid-item grid-item-wide">
                     <div className="grid-item-content">
-                        <h2>What more?</h2>
+                        <h2>How do I spend my free time?</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit et libero ut fermentum. Aliquam a lobortis sapien, vitae vehicula eros. Suspendisse potenti. Pellentesque facilisis odio diam, et cursus mi sagittis eget. Cras vel maximus diam. Mauris hendrerit ipsum lacus. Ut nec vehicula quam. Morbi arcu sapien, congue sit amet vulputate eu, hendrerit vel massa. Morbi luctus vulputate tortor, eget vulputate tortor. Etiam ultricies ipsum nunc, in vulputate eros viverra sit amet. Vivamus venenatis dolor ut odio condimentum, eget blandit nulla bibendum. Pellentesque vitae blandit quam, non auctor odio. Vivamus at placerat nisi, sagittis porta tellus. Morbi elementum a lorem et dictum. Nunc a enim eu sem pulvinar tincidunt id scelerisque metus. Quisque diam nunc, iaculis eu consequat eget, vulputate a arcu.</p>
                     </div> 
                 </div>
