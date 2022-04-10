@@ -7,6 +7,7 @@
 .grid-item > img {
     height: 250px;
     width: auto;
+    margin: 0 auto;
 }
 
 /* This applies from 600px and up */
@@ -16,7 +17,13 @@
     }
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
-        gap: 1.5rem;
+        display: grid;
+
+        grid-auto-rows: 300px;
+    
+        max-width: 725px;
+        gap: 0.5rem;
+        margin: 0px auto;
     }
     .grid-item > img {
         width: 100%;
@@ -25,13 +32,6 @@
 }
 
 .grid-container {
-    display: grid;
-
-    grid-auto-rows: 300px;
-
-    max-width: 725px;
-    gap: 0.5rem;
-    margin: 0px auto;
     justify-items: center;
 }
 
