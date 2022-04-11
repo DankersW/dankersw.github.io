@@ -31,5 +31,3 @@ export default function About() {
         </div>
     );
 }
-
-//  <img src={wouterSnowPic} alt="Wouter"/>
