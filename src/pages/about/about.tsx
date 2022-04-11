@@ -5,11 +5,11 @@ import wouterSmile from "./../../images/wouter_smile.jpg"
 
 
 export default function About() {
-    return (
+    return ( 
         <div className="about-container bg-dark-grey section-wrapper">
             <h1 className="section-title">About</h1>
             <div className="grid-container">
-                <div className="grid-item"> <img src={wouterSmile} alt="Big smile"/> </div>
+                
                 <div className="grid-item grid-item-wide">
                     <div className="grid-item-content">
                         <h2>A few words about myself</h2>
@@ -18,6 +18,7 @@ export default function About() {
                         <p>After my studies I got offered a job and moved to Göteborg, where I'm still living together with my fantastic partner Mathilda.</p>    
                     </div> 
                 </div>
+                <div className="grid-item grid-item-left"> <img src={wouterSmile} alt="Big smile"/> </div>
                 <div className="grid-item grid-item-wide">
                     <div className="grid-item-content">
                         <h2>How do I spend my free time?</h2>
