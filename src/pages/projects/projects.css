@@ -9,19 +9,19 @@
     flex-wrap: wrap;
 }
 
-.bg-abstact-1 {
+.bg-research {
     background-image: url("./../../images/research.avif");
     background-size: cover;
 }
-.bg-abstact-2 {
-    background-image: url("./../../images/project_bg_2.jpg");
+.bg-wave {
+    background-image: url("./../../images/wave.jpg");
     background-size: cover;
 }
-.bg-abstact-3 {
+.bg-drone {
     background-image: url("./../../images/drone.jpeg");
     background-size: cover;
 }
-.bg-abstact-4 {
+.bg-robot {
     background-image: url("./../../images/robot.avif");
     background-size: cover;
 }
@@ -29,8 +29,8 @@
     background-image: url("./../../images/home.avif");
     background-size: cover;
 }
-.bg-abstact-7 {
-    background-image: url("./../../images/project_bg_7.jpg");
+.bg-woodworking {
+    background-image: url("./../../images/woodworking.jpg");
     background-size: cover;
 }
 .bg-saent {
