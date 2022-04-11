@@ -33,6 +33,10 @@
     background-image: url("./../../images/project_bg_7.jpg");
     background-size: cover;
 }
+.bg-saent {
+    background-image: url("./../../images/saent.jpg");
+    background-size: cover;
+}
 
 .card {
     color: #ECECEC;

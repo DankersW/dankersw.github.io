@@ -30,6 +30,12 @@ export const projectData = [
         link: "https://ieeexplore.ieee.org/abstract/document/8771197"
     },
     {
+        bgPic: "bg-saent",
+        title: "Saent productivity",
+        description: "Prototyped the next phase of the customers product road-map. I made a PoC to extend the platform",
+        link: "https://www.youtube.com/watch?v=l3N-GKR2fxE&ab_channel=Saent"
+    },
+    {
         bgPic: "bg-abstact-7",
         title: "Woodworking",
         description: "Projects ranging from a storage bed to build-in closets. I draw my projects before hand in 3D using Sketch-up",
