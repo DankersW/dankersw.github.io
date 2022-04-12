@@ -26,7 +26,7 @@ export const projectData = [
     {
         bgPic: "bg-research",
         title: "IEEE publication",
-        description: "Published several paperrs from the results of my master thesis in IEEE Transactions on Vehicular Technology",
+        description: "Published several papers from the results of my master thesis in IEEE Transactions on Vehicular Technology",
         link: "https://ieeexplore.ieee.org/abstract/document/8771197"
     },
     {
