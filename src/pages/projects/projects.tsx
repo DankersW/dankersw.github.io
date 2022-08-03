@@ -11,7 +11,7 @@ export default function Projects() {
 
             </h3>
             <h4 className="sub-sub-sub-title"> 
-                For my work projects please consult my <a href="https://github.com/DankersW" target="_blank" rel="noopener noreferrer">CV</a> or <a href="https://github.com/DankersW" target="_blank" rel="noopener noreferrer">portfolio.</a>.
+                For my work projects please consult my <a href="https://github.com/DankersW/cv/releases" target="_blank" rel="noopener noreferrer">CV</a> or <a href="https://github.com/DankersW/cv/releases" target="_blank" rel="noopener noreferrer">portfolio.</a>.
             </h4>
             <h4 className="hover-tip sub-sub-sub-title">
                 (Hover over the tiles for more info)
